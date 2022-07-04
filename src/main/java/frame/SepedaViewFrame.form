@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="frame.SepedaViewFrame">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="16" left="16" bottom="0" right="16"/>
+    <constraints>
+      <xy x="20" y="20" width="539" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="38b81" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="a3ca9" class="javax.swing.JLabel">
+            <constraints border-constraint="West"/>
+            <properties>
+              <text value="Cari Sepeda"/>
+            </properties>
+          </component>
+          <component id="fcda0" class="javax.swing.JTextField" binding="cariTextField">
+            <constraints border-constraint="Center"/>
+            <properties/>
+          </component>
+          <component id="2f8f0" class="javax.swing.JButton" binding="cariButton">
+            <constraints border-constraint="East"/>
+            <properties>
+              <text value="Cari"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <vspacer id="4776e">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <scrollpane id="aec14">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="adf7a" class="javax.swing.JTable" binding="viewTable">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <grid id="f707" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="a8488" class="javax.swing.JButton" binding="tambahButton">
+            <constraints/>
+            <properties>
+              <text value="Tambah"/>
+            </properties>
+          </component>
+          <component id="42628" class="javax.swing.JButton" binding="ubahButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Ubah"/>
+            </properties>
+          </component>
+          <component id="bd509" class="javax.swing.JButton" binding="hapusButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Hapus"/>
+            </properties>
+          </component>
+          <component id="d1627" class="javax.swing.JButton" binding="batalButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Batal"/>
+            </properties>
+          </component>
+          <component id="768ff" class="javax.swing.JButton" binding="cetakButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Cetak"/>
+            </properties>
+          </component>
+          <component id="c0f9f" class="javax.swing.JButton" binding="tutupButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Tutup"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
